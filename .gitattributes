@@ -1,2 +1,14 @@
-# Auto detect text files and perform LF normalization
+# Auto-detect text files and set LF as the line ending
 * text=auto
+
+# Explicitly set file types and line endings
+*.py text eol=lf
+*.sh text eol=lf
+*.bat text eol=crlf
+
+# Treat Jupyter Notebooks as binary to avoid merge conflicts
+*.ipynb binary
+
+# Handle images as binary
+*.jpg binary
+*.png binary
