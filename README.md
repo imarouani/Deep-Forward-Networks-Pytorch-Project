@@ -4,32 +4,31 @@
 
 ## Installation Guide
 
-This project demonstrates how a simple feedforward network learns to classify images from the CIFAR-10 dataset using PyTorch. It includes scripts for training, testing, and visualizing model performance.
-
 ## Project Structure
 - `models/`: Contains the FeedForward network definition.
 - `utils/`: Contains data loading and preprocessing code.
-- `scripts/`: Contains scripts for training and testing.
-- `notebooks/`: Contains Jupyter notebooks for visualizing training and weights.
+- `scripts/`: 
+  - `train.py`: Script for training the model.
+  - `test.py`: Script for testing the model.
+- `notebooks/`: 
+  - `hands_on_theory.ipynb`: Explains the theory from Chapter 6 with code examples.
+  - `visualize_training.ipynb`: Plots the loss and accuracy curves.
+  - `visualize_weights.ipynb`: Visualizes how the weights change over epochs.
 
-## Getting Started
-1. Clone the repository: `git clone <repository_url>`
-2. Install dependencies: `pip install -r requirements.txt`
-3. Train the model: `python scripts/train.py`
-4. Test the model: `python scripts/test.py`
-5. Visualize results using the notebooks in `notebooks/`.
+## Prerequisites
+- **Python Version**: This project requires Python 3.8 to ensure compatibility with all dependencies.
+- **Package Management**: Using Conda is recommended for managing the environment.
 
-## Requirements
-- torch
-- torchvision
-- matplotlib
-- jupyter
+## Setting Up the Environment
 
-## Usage
-- **Training**: Run `scripts/train.py` to train the model. The script saves weights every 5 epochs.
-- **Testing**: Run `scripts/test.py` to evaluate the model on the test set and get class-wise accuracy.
-- **Visualization**: Use the provided Jupyter notebooks to visualize training metrics and weight changes.
+### Using Conda (Recommended)
+1. Install [Miniconda](https://docs.conda.io/en/latest/miniconda.html) if you haven’t already.
+2. Create the environment using the provided `environment.yml` file:
+   ```bash
+   conda env create -f environment.yml
 
 ## License
 No licence required:
 This project is provided "as is" with no explicit license. Use, modify, and distribute freely at your own discretion, with no warranties or guarantees.
+
+
