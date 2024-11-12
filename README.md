@@ -25,7 +25,7 @@
 1. Install [Miniconda](https://docs.conda.io/en/latest/miniconda.html) if you haven’t already.
 2. Create the environment using the provided `environment.yml` file:
    ```bash
-   conda env create -f environment.yml
+   conda env create --file environment.yml
 
 ## License
 No licence required:
