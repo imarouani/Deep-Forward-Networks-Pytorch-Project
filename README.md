@@ -26,8 +26,8 @@ The requirements in the env file should be compatible and version-specific, if y
   - **`train.py`**: Script for training the model and saving weights.
   - **`test.py`**: Script for evaluating the model on the test set.
 - **`visuals/`**: Contains scripts for visualizing training loss and weight distributions.
-- **`weights/`**: Directory where trained model weights should be saved. Make sure to update your training script to save weights here.
-- **`main.ipynb`**: The main notebook to run the project interactively.
+- **`weights/`**: Directory where trained model weights should be saved. 
+- **`main.ipynb`**: The main notebook to run the project.
 
 
 - **Python Version**: This project requires Python 3.8 to ensure compatibility with all dependencies.
