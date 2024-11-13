@@ -31,4 +31,3 @@ main.ipynb: The main notebook to run the project.
 ## License
 No licence required:
 This project is provided "as is" with no explicit license. Use, modify, and distribute freely at your own discretion, with no warranties or guarantees.
-![image](https://github.com/user-attachments/assets/9a51c0a7-ffff-4c1d-b845-663d9d253baa)
