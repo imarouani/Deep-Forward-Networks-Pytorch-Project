@@ -51,11 +51,6 @@ coverage.xml
 .pytest_cache/
 cover/
 
-cifar-10-batches-py/
-cifar-10-python.tar.gz
-!.gitignore
-
-
 # Translations
 *.mo
 *.pot
@@ -169,3 +164,4 @@ cython_debug/
 
 # VS Code settings
 .vscode/
+/data
