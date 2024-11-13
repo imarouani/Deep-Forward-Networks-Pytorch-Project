@@ -20,12 +20,14 @@ The requirements in the env file should be compatible and version-specific, if y
 
 ## Project Structure
 
-
-- `model/ffn.py`: Defines the FeedForwardNetwork class.
-- `utils/data_preparation.py`: Loads and prepares the CIFAR-10 dataset.
-- `visuals/`: Contains scripts for visualizing training loss and weights.
-- `weights/`: Directory to save model weights.
-- `main.ipynb`: The main notebook to run the project.
+- **`model/ffn.py`**: Defines the `FeedForwardNetwork` class.
+- **`utils/data_preparation.py`**: Loads and prepares the CIFAR-10 dataset.
+- **`scripts/`**: 
+  - **`train.py`**: Script for training the model and saving weights.
+  - **`test.py`**: Script for evaluating the model on the test set.
+- **`visuals/`**: Contains scripts for visualizing training loss and weight distributions.
+- **`weights/`**: Directory where trained model weights should be saved. Make sure to update your training script to save weights here.
+- **`main.ipynb`**: The main notebook to run the project interactively.
 
 
 - **Python Version**: This project requires Python 3.8 to ensure compatibility with all dependencies.
