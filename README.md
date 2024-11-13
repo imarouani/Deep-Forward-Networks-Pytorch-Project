@@ -1,11 +1,16 @@
-### Overview: Feedforward Network on CIFAR-10
- This repository contains resources for the seminar Deep Learning Concepts at the University of Osnabrück (2024/2025), led by Lukas Niehaus and Robin Rawiel. The repository includes a presentation and code to introduce foundational theory and practical examples of Feed Forward Neural Networks (FFNNs), based on the 6th chapter of the book Deep Learning by Ian Goodfellow, Yoshua Bengio, and Aaron Courville.  This work is prepared by Iheb Marouani and Zuzanna Bojarska to provide an accessible yet comprehensive introduction to FFNNs, covering both theoretical insights and hands-on examples.
-This chapter can be directly accessed using this [link](https://www.deeplearningbook.org/contents/mlp.html).
+### Overview: Feedforward Network on CIFAR-10  -   Hands-on Example 
+This repository contains resources for the seminar Deep Learning Concepts at the University of Osnabrück (2024/2025), led by Lukas Niehaus and Robin Rawiel. It includes a presentation and code to introduce foundational theory and practical examples of Feed Forward Neural Networks (FFNNs), based on the 6th Chapter of the book Deep Learning by Ian Goodfellow, Yoshua Bengio, and Aaron Courville.
 
+This work, prepared by Iheb Marouani and Zuzanna Bojarska, is the second part of a presentation, which aims to provide an accessible yet comprehensive introduction to FFNNs, combining theoretical insights with hands-on examples. 
+We recommend starting with the main notebook, which is well-guided and comprehensive. After setting up the environment, refer to the corresponding files in their respective directories for additional details.
+
+
+ 
 ## Setting Up the Environment
 
 The code automatically uses your NVIDIA GPU for faster computations if CUDA is available (v 11.8). If not, it defaults to using the CPU.
 If you do have an NVIDIA GPU and want to use it for training, you can [download the CUDA Toolkit here](https://developer.nvidia.com/cuda-downloads).
+The requirements in the env file should be compatible and version-specific, if you encounter compatibility issues and think the reason for that is a faulty version present in the environment, please send us an email to imarouani@uos.de.
 
 
 1. Install [Miniconda here](https://developer.nvidia.com/cuda-11-8-0-download-archive) if you haven’t already.
