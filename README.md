@@ -21,7 +21,6 @@ The requirements in the env file should be compatible and version-specific, if y
 ## Project Structure
 
 - **`model/ffn.py`**: Defines the `FeedForwardNetwork` class.
-- **`utils/
 - **`scripts/`**: 
   - **`train.py`**: Script for training the model and saving weights.
   - **`test.py`**: Script for evaluating the model on the test set.
