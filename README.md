@@ -4,6 +4,10 @@
 
 ## Installation Guide
 
+The code automatically uses your NVIDIA GPU for faster computations if CUDA is available (v 11.8). If not, it defaults to using the CPU.
+If you do have an NVIDIA GPU and want to use it for training, you can [download the CUDA Toolkit here](https://developer.nvidia.com/cuda-downloads).
+
+
 ## Project Structure
 - `models/`: Contains the FeedForward network definition.
 - `utils/`: Contains data loading and preprocessing code.
@@ -20,9 +24,7 @@
 - **Package Management**: Using Conda is recommended for managing the environment.
 
 ## Setting Up the Environment
-
-### Using Conda (Recommended)
-1. Install [Miniconda](https://docs.conda.io/en/latest/miniconda.html) if you haven’t already.
+1. Install [Miniconda here](https://docs.conda.io/en/latest/miniconda.html) if you haven’t already.
 2. Create the environment using the provided `environment.yml` file:
    ```bash
    conda env create --file environment.yml
