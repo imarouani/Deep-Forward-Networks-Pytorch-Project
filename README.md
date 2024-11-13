@@ -3,7 +3,7 @@ This repository contains resources for the seminar Deep Learning Concepts at the
 
 This work, prepared by Iheb Marouani and Zuzanna Bojarska, is the second part of a presentation, which aims to provide an accessible yet comprehensive introduction to FFNNs, combining theoretical insights with hands-on examples. 
 
-If you're not familiar with the theory, we recommend referring to the first part of the presentation of the mentioned book, otherwise, the [main notebook](https://github.com/imarouani/Deep-Forward-Networks-Pytorch-Project/blob/main/Main.ipynb) is comprehensive and should be enough to guide you through training your first ANN using the Ciphar-10 Dataset.
+If you're not familiar with the theory, we recommend referring to the first part of the presentation or the mentioned book, otherwise, the [main notebook](https://github.com/imarouani/Deep-Forward-Networks-Pytorch-Project/blob/main/Main.ipynb) is comprehensive and should be enough to guide you through training your first ANN using the Ciphar-10 Dataset.
 
  
 ## Setting Up the Environment
@@ -20,11 +20,13 @@ The requirements in the env file should be compatible and version-specific, if y
 
 ## Project Structure
 
-model/ffn.py: Defines the FeedForwardNetwork class.
-utils/data_preparation.py: Loads and prepares the CIFAR-10 dataset.
-visuals/: Contains scripts for visualizing training loss and weights.
-weights/: Directory to save model weights.
-main.ipynb: The main notebook to run the project.
+
+- `model/ffn.py`: Defines the FeedForwardNetwork class.
+- `utils/data_preparation.py`: Loads and prepares the CIFAR-10 dataset.
+- `visuals/`: Contains scripts for visualizing training loss and weights.
+- `weights/`: Directory to save model weights.
+- `main.ipynb`: The main notebook to run the project.
+
 
 - **Python Version**: This project requires Python 3.8 to ensure compatibility with all dependencies.
 - **Package Management**: Using Conda is recommended for managing the environment.
