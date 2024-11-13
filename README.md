@@ -1,5 +1,5 @@
 ### Overview: Feedforward Network on CIFAR-10  -   Hands-on Example 
-This repository contains resources for the seminar Deep Learning Concepts at the University of Osnabrück (2024/2025), led by Lukas Niehaus and Robin Rawiel. It includes a presentation and code to introduce foundational theory and practical examples of Feed Forward Neural Networks (FFNNs), based on the 6th Chapter of the book Deep Learning by Ian Goodfellow, Yoshua Bengio, and Aaron Courville.
+This repository contains resources for the seminar Deep Learning Concepts at the University of Osnabrück (2024/2025), led by Lukas Niehaus and Robin Rawiel. It includes a presentation and code to introduce foundational theory and practical examples of Feed Forward Neural Networks (FFNNs), based on the [6th chapter](https://www.deeplearningbook.org/contents/mlp.html) of the book [deep learning](https://www.deeplearningbook.org/contents/) by Ian Goodfellow, Yoshua Bengio, and Aaron Courville.
 
 This work, prepared by Iheb Marouani and Zuzanna Bojarska, is the second part of a presentation, which aims to provide an accessible yet comprehensive introduction to FFNNs, combining theoretical insights with hands-on examples. 
 We recommend starting with the main notebook, which is well-guided and comprehensive. After setting up the environment, refer to the corresponding files in their respective directories for additional details.
@@ -31,5 +31,4 @@ main.ipynb: The main notebook to run the project.
 ## License
 No licence required:
 This project is provided "as is" with no explicit license. Use, modify, and distribute freely at your own discretion, with no warranties or guarantees.
-
-
+![image](https://github.com/user-attachments/assets/9a51c0a7-ffff-4c1d-b845-663d9d253baa)
