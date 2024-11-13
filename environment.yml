@@ -1,14 +1,14 @@
 name: ffn
 channels:
-  - defaults
   - nvidia
+  - defaults
   - pytorch
 dependencies:
   - python=3.8
-  - pytorch
-  - torchvision
-  - torchaudio
-  - cudatoolkit=11.8  # Use CUDA Toolkit version 11.8, which is supported
   - numpy=1.21
   - matplotlib=3.7.1
-  - jupyter
+  - jupyter=1.0.0
+  - pytorch=2.0.1
+  - torchvision=0.15.2
+  - torchaudio
+  - cudatoolkit=11.8

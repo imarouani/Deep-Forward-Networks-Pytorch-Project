@@ -1,10 +1,7 @@
 import torch
 import torch.nn as nn
 
-# Define a simple FeedForward Network
-# Chapter 6 of the Deep Learning Book discusses feedforward networks
-# and emphasizes the role of activation functions, linear transformations,
-# and learning through backpropagation.
+# Defining the FFN
 class FeedForwardNetwork(nn.Module):
     def __init__(self):
         super(FeedForwardNetwork, self).__init__()
