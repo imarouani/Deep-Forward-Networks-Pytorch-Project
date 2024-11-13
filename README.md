@@ -2,8 +2,8 @@
 This repository contains resources for the seminar Deep Learning Concepts at the University of Osnabrück (2024/2025), led by Lukas Niehaus and Robin Rawiel. It includes a presentation and code to introduce foundational theory and practical examples of Feed Forward Neural Networks (FFNNs), based on the [6th chapter](https://www.deeplearningbook.org/contents/mlp.html) of the book [deep learning](https://www.deeplearningbook.org/contents/) by Ian Goodfellow, Yoshua Bengio, and Aaron Courville.
 
 This work, prepared by Iheb Marouani and Zuzanna Bojarska, is the second part of a presentation, which aims to provide an accessible yet comprehensive introduction to FFNNs, combining theoretical insights with hands-on examples. 
-We recommend starting with the main notebook, which is well-guided and comprehensive. After setting up the environment, refer to the corresponding files in their respective directories for additional details.
 
+If you're not familiar with the theory, we recommend referring to the first part of the presentation of the mentioned book, otherwise, the [main notebook]([https://www.deeplearningbook.org/contents/mlp.html](https://github.com/imarouani/Deep-Forward-Networks-Pytorch-Project/blob/main/Main.ipynb) is comprehensive and should be enough to guide you through training your first ANN using the Ciphar-10 Dataset.
 
  
 ## Setting Up the Environment
