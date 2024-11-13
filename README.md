@@ -3,7 +3,7 @@ This repository contains resources for the seminar Deep Learning Concepts at the
 
 This work, prepared by Iheb Marouani and Zuzanna Bojarska, is the second part of a presentation, which aims to provide an accessible yet comprehensive introduction to FFNNs, combining theoretical insights with hands-on examples. 
 
-If you're not familiar with the theory, we recommend referring to the first part of the presentation or the mentioned book, otherwise, the [main notebook](https://github.com/imarouani/Deep-Forward-Networks-Pytorch-Project/blob/main/Main.ipynb) is comprehensive and should be enough to guide you through training your first ANN using the Ciphar-10 Dataset.
+If you're not familiar with the theory, we recommend referring to the first part of the presentation or the mentioned book, otherwise, the [main notebook](https://github.com/imarouani/Deep-Forward-Networks-Pytorch-Project/blob/main/Main.ipynb) is comprehensive and should be enough to guide to train and play around with your first ANN using the Ciphar-10 Dataset.
 
  
 ## Setting Up the Environment
