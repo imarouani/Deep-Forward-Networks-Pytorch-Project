@@ -1,6 +1,6 @@
 import torch
 from models.feedforward import FeedForwardNetwork
-from utils.data_preparation import testloader, classes  # Import the testloader and classes
+from scripts.data_preparation import testloader, classes  # Import the testloader and classes
 
 # Load the trained model
 model = FeedForwardNetwork()
