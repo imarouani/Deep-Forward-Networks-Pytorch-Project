@@ -25,6 +25,7 @@ utils/data_preparation.py: Loads and prepares the CIFAR-10 dataset.
 visuals/: Contains scripts for visualizing training loss and weights.
 weights/: Directory to save model weights.
 main.ipynb: The main notebook to run the project.
+
 - **Python Version**: This project requires Python 3.8 to ensure compatibility with all dependencies.
 - **Package Management**: Using Conda is recommended for managing the environment.
 
