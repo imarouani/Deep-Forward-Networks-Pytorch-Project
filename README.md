@@ -10,7 +10,7 @@ We recommend starting with the main notebook, which is well-guided and comprehen
 
 The code automatically uses your NVIDIA GPU for faster computations if CUDA is available (v 11.8). If not, it defaults to using the CPU.
 If you do have an NVIDIA GPU and want to use it for training, you can [download the CUDA Toolkit here](https://developer.nvidia.com/cuda-downloads).
-The requirements in the env file should be compatible and version specific, if you encounter compatibility issues and think the reason for that is a falty version present in the environment, please send us an email.
+The requirements in the env file should be compatible and version-specific, if you encounter compatibility issues and think the reason for that is a faulty version present in the environment, please send us an email to imarouani@uos.de
 
 
 1. Install [Miniconda here](https://developer.nvidia.com/cuda-11-8-0-download-archive) if you haven’t already.
