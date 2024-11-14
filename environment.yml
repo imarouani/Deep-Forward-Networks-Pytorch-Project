@@ -12,3 +12,4 @@ dependencies:
   - torchvision=0.15.2
   - torchaudio
   - cudatoolkit=11.8
+  - scikit-learn=0.24.2
