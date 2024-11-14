@@ -25,7 +25,6 @@ The requirements in the env file should be compatible and version-specific, if y
   - **`train.py`**: Script for training the model and saving weights.
   - **`test.py`**: Script for evaluating the model on the test set.
   - **`data_preparation.py`**: Loads and prepares the CIFAR-10 dataset.
-- **`visuals/`**: Contains scripts for visualizing training loss and weight distributions.
 - **`weights/`**: Directory where trained model weights should be saved. 
 - **`main.ipynb`**: The main notebook to run the project.
 
