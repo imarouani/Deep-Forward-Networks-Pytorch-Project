@@ -33,5 +33,4 @@ The requirements in the env file should be compatible and version-specific, if y
 - **Package Management**: Using Conda is recommended for managing the environment.
 
 ## License
-No licence required:
-This project is provided "as is" with no explicit license. Use, modify, and distribute freely at your own discretion, with no warranties or guarantees.
+No licence required.
