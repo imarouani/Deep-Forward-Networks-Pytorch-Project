@@ -1,24 +1,37 @@
+import os
 import torch
 import torchvision
 import torchvision.transforms as transforms
 
 # Define the prepare_data function
-def prepare_data():
-    # Define transformations for the training and testing sets
-    transform = transforms.Compose([
-        transforms.ToTensor(),  # Convert images to PyTorch tensors
-        transforms.Normalize((0.5, 0.5, 0.5), (0.5, 0.5, 0.5))  # Normalize the images
-    ])
+def prepare_data(save_path="data/dataset.pt"):
+    """
+    Prepares and saves the CIFAR-10 dataset for training and testing.
 
-    # Download and load CIFAR-10 training dataset
-    trainset = torchvision.datasets.CIFAR10(root='./data', train=True, download=True, transform=transform)
-    trainloader = torch.utils.data.DataLoader(trainset, batch_size=32, shuffle=True)
+    Args:
+        save_path (str): Path to save the dataset.
 
-    # Download and load CIFAR-10 testing dataset
-    testset = torchvision.datasets.CIFAR10(root='./data', train=False, download=True, transform=transform)
-    testloader = torch.utils.data.DataLoader(testset, batch_size=32, shuffle=False)
+    Returns:
+        tuple: Training and testing datasets.
+    """
+    # Check if the dataset is already saved
+    if os.path.exists(save_path):
+        print(f"Loading dataset from {save_path}")
+        dataset = torch.load(save_path)
+    else:
+        print("Preparing and saving dataset...")
+        # Define transformations for the training and testing sets
+        transform = transforms.Compose([
+            transforms.ToTensor(),
+            transforms.Normalize((0.5, 0.5, 0.5), (0.5, 0.5, 0.5))  # Normalize the images
+        ])
 
-    # Define the classes in CIFAR-10
-    classes = ('plane', 'car', 'bird', 'cat', 'deer', 'dog', 'frog', 'horse', 'ship', 'truck')
+        # Download and prepare datasets
+        trainset = torchvision.datasets.CIFAR10(root='./data', train=True, download=True, transform=transform)
+        testset = torchvision.datasets.CIFAR10(root='./data', train=False, download=True, transform=transform)
 
-    return trainloader, testloader, classes
+        # Save the dataset as a dictionary
+        dataset = {"train": trainset, "test": testset, "classes": trainset.classes}
+        torch.save(dataset, save_path)
+
+    return dataset["train"], dataset["test"], dataset["classes"]
